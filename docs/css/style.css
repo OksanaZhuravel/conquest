@@ -80,6 +80,7 @@ input[type="radio"].visually-hidden {
   width: 100%;
   background-color: #FDFDFB;
   padding: 0 97px;
+  box-sizing: border-box;
 }
 
 .header__nav {

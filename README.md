@@ -6,4 +6,4 @@
 
 Были использованы HTML5, CSS3.
 
-Опубликованный проект с помощью github по ссылке:
+Опубликованный проект с помощью github по ссылке: https://oksanazhuravel.github.io/conquest/

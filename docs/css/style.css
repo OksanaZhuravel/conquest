@@ -229,12 +229,12 @@ input[type="radio"].visually-hidden {
   padding: 0 120px;
   display: grid;
   align-items: center;
-  justify-items: center;
-  grid-template-columns: 430px 1fr;
+  justify-items: start;
+  grid-template-columns: 595px 1fr;
   background-image: url("../img/dest/promo.svg");
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  background-size: 496px 769px;
+  background-position: 477px;
 }
 
 .promo__title {

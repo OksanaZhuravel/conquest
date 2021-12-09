@@ -106,13 +106,13 @@ function styles() {
     src(path.src.css)
       .pipe(less())
       .pipe(cssbeautify())
-      .pipe(
-        autoprefixer({
-          overrideBrowserslist: ['last 5 versions'],
-          grid: true,
-          cascade: true,
-        })
-      )
+      // .pipe(
+      //   autoprefixer({
+      //     overrideBrowserslist: ['last 5 versions'],
+      //     grid: true,
+      //     cascade: true,
+      //   })
+      // )
       .pipe(gcmq())
       .pipe(webpcss({ webpClass: '.webp', noWebpClass: '.no-webp' }))
       // Для нормальной работы Обязательно npm install webp-converter@2.2.3 --save-dev
